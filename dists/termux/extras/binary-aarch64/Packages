@@ -137,20 +137,20 @@ Description: Development files for httrack
 Homepage: http://www.httrack.com
 Depends: httrack
 Filename: dists/termux/extras/binary-aarch64/httrack-dev_3.49.2_aarch64.deb
-Size: 23492
-SHA256: 89a944abde48f87fe3e8854477d300ee22aa6d38b9873331ea434e4ab0225f61
+Size: 23496
+SHA256: 290c81173ecdfc8ceeeb07f30f28f217522f1abd5f25dc77aa420d296cfa1f21
 
-Package: httrack-dev
+Package: httrack
 Architecture: aarch64
-Installed-Size: 168
+Installed-Size: 2248
 Maintainer: lokesh @hax4us
 Version: 3.49.2
-Description: Development files for httrack
+Description: It allows you to download a World Wide Web site from the Internet
 Homepage: http://www.httrack.com
-Depends: httrack
+Depends: openssl
 Filename: dists/termux/extras/binary-aarch64/httrack_3.49.2_aarch64.deb
-Size: 23492
-SHA256: 89a944abde48f87fe3e8854477d300ee22aa6d38b9873331ea434e4ab0225f61
+Size: 437576
+SHA256: 7167a3bafc11fa2fbcb4244f51b372d3e4edc08ff450dfaa752c34d63a64ddc4
 
 Package: imlib2-dev
 Architecture: aarch64
@@ -175,6 +175,30 @@ Depends: freetype, giflib, libandroid-shmem, libbz2, libjpeg-turbo, libpng, libt
 Filename: dists/termux/extras/binary-aarch64/imlib2_1.4.10_aarch64.deb
 Size: 454832
 SHA256: 3cb2ff351d71371516e4bba6796e1cf5f4e3b0736ae00fc3a28e2d797509f685
+
+Package: libandroid-support-dev
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Development files for libandroid-support
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support
+Filename: dists/termux/extras/binary-aarch64/libandroid-support-dev_22_aarch64.deb
+Size: 2248
+SHA256: 6121dc42d6a23e647f2897aa7b4e43d29d5d0ddfe65f683059386682add65d13
+
+Package: libandroid-support
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://github.com/termux/libandroid-support
+Essential: yes
+Filename: dists/termux/extras/binary-aarch64/libandroid-support_22_aarch64.deb
+Size: 107100
+SHA256: 20d659f31518987eeb381470249fb1d38f4262b9adcae5d4d908ab7e6cde2d97
 
 Package: libatk-dev
 Architecture: aarch64
@@ -1226,6 +1250,42 @@ Recommends: feh, pypanel, xcompmgr
 Filename: dists/termux/extras/binary-aarch64/openbox_3.6.1-6_aarch64.deb
 Size: 366272
 SHA256: 26e51af54ae573ff7d8a257389f4c5bdbcf3145928e3bdbb405f496838f91f1b
+
+Package: openssl-dev
+Architecture: aarch64
+Installed-Size: 1896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2o-2
+Description: Development files for openssl
+Homepage: https://www.openssl.org/
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/openssl-dev_1.0.2o-2_aarch64.deb
+Size: 218148
+SHA256: 27735fd616075787434caa0f9753eed40d95033b21f06b6ecdb5e3fd7d46c413
+
+Package: openssl-tool
+Architecture: aarch64
+Installed-Size: 500
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2o-2
+Description: The openssl command line cryptographic tool
+Homepage: https://www.openssl.org/
+Depends: openssl
+Filename: dists/termux/extras/binary-aarch64/openssl-tool_1.0.2o-2_aarch64.deb
+Size: 146696
+SHA256: 16492d557c7a0fe26b42d20c1870051f67682e197f3ccf5f54bd05dbe58ec34f
+
+Package: openssl
+Architecture: aarch64
+Installed-Size: 1924
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2o-2
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+Depends: ca-certificates
+Filename: dists/termux/extras/binary-aarch64/openssl_1.0.2o-2_aarch64.deb
+Size: 548448
+SHA256: b7b1d1f90a280482e95076ddeb8c8b5edb3d8e57e336918bf7ce8029c2f2193c
 
 Package: pangoxft-dev
 Architecture: aarch64

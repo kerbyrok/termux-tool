@@ -1,17 +1,17 @@
 Codename: termux
 Version: 1
-Architectures: arm x86_64 all aarch64 i686
+Architectures: all i686 aarch64 x86_64 arm
 Description: Extras repository
 Suite: termux
-Date: Tue, 24 Jul 2018 15:24:10 UTC
+Date: Wed, 25 Jul 2018 10:39:09 UTC
 SHA256:
- 9c431c79e7f07ed13655d9f5bede9644514dcf5b42a7ef55bc6120c972717c95 3736 extras/binary-arm/Packages
- 5b83a2f34e570e5dfa5123beb2d03cef8a8eec9d497729654183b855158f3c72 1472 extras/binary-arm/Packages.xz
- 60ac08124a461a6be7dfa077b8e9b3bd533158aeae37d590d7c255846b021914 833 extras/binary-x86_64/Packages
- ca39d1b5d1675a5fd24477e6d25a58dece0c8fee8bcb739966a242081de7e3d0 532 extras/binary-x86_64/Packages.xz
- bae2ceb96444b9faaa16e8bf93778c114fa30f7688cf9a9a9f60ddb9c2a4261d 3030 extras/binary-all/Packages
- 20e45b3c28617a1e929c1bd33c23270271342e113c10375862888ea5b2047bab 1484 extras/binary-all/Packages.xz
- b8bf183c55e7c035ab998c0eb281c52ccbf5386fb0228d51eabe37a0637eb91c 58253 extras/binary-aarch64/Packages
- dc34932e6fb20605e8bd30b1fdb10f5bde2f6b723c13b52f11e9b5d08137d797 12812 extras/binary-aarch64/Packages.xz
+ c07f07f077964a2dfefbc63cf4a9de0fabd00bf035fa212499c91ada7c806458 3799 extras/binary-all/Packages
+ 5bf68a59a60d308102c93c0fb0fab219f416a2326fe92280d3715057f40f0b09 1708 extras/binary-all/Packages.xz
  a03159c09738437ec62a63c1a8fca9cb9c129000046abe82447634f09e97eadf 821 extras/binary-i686/Packages
  372723f177350bfa7665a88f3dfea5d8be7c41a6a52206e2031c981a7fb92c6d 528 extras/binary-i686/Packages.xz
+ c9cd982d39a3c89f208e63898782c43da3867528a16716e37f8d2ee2961e2d2f 60410 extras/binary-aarch64/Packages
+ c9a00456ca63e40db45a4fbafbdd83af7363b7b0cbb698e404b2c07057724692 13336 extras/binary-aarch64/Packages.xz
+ 60ac08124a461a6be7dfa077b8e9b3bd533158aeae37d590d7c255846b021914 833 extras/binary-x86_64/Packages
+ ca39d1b5d1675a5fd24477e6d25a58dece0c8fee8bcb739966a242081de7e3d0 532 extras/binary-x86_64/Packages.xz
+ 9c431c79e7f07ed13655d9f5bede9644514dcf5b42a7ef55bc6120c972717c95 3736 extras/binary-arm/Packages
+ 5b83a2f34e570e5dfa5123beb2d03cef8a8eec9d497729654183b855158f3c72 1472 extras/binary-arm/Packages.xz
